@@ -157,6 +157,7 @@ html::-webkit-scrollbar-track {
 .header_nav {
     height: 100%;
     position: relative;
+    margin-left: auto;
 }
 
 .header_nav nav ul {
