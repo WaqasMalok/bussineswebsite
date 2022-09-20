@@ -12,37 +12,58 @@
     <script src="https://kit.fontawesome.com/045e10981d.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onclick="body()">
     <section id="main_container">
         <!-- full body container full cover main width setting ^^^^ -->
         <!-- header  -->
         <header class="header">
+
             <div class="header_logo flex_row">
-                <a href="index.html" class="flex_row"><i class="fas fa-bullseye"></i>
+                <a href="#home" class="flex_row"><i class="fas fa-bullseye"></i>
                     <span>Leadership<br>Event</span></a>
+            </div>
+
+            <div class="header_nav_btn">
+
+                <i class="fas fa-align-right" id="show" onclick="show_btn()"></i>
+
+                <i class="fas fa-times" id="hide" onclick="hide_btn()"></i>
 
             </div>
 
             <div class="header_nav flex_row">
-                <div class="header_nav_btn">
 
-                    <i class="fas fa-align-right" id="show" onclick="show_btn()"></i>
-
-                    <i class="fas fa-times" id="hide" onclick="hide_btn()"></i>
-                </div>
                 <nav id="navi">
                     <ul>
-                        <li><a class="active" href="#home">Home</a></li>
-                        <li><a id="a" href="#">About</a></li>
-                        <li><a id="a" href="#Speaders">Speaders</a></li>
-                        <li><a id="a" href="#schedules">Schedules </a></li>
-                        <li><a id="a" href="#Pricing"> Pricing</a></li>
-                        <li><a id="a" href="#venue">Venue </a></li>
-                        <li><a id="a" href="#contect">Contact </a></li>
+                        <li class="li" onclick="lia()"><a href="#home">Home</a></li>
+                        <li class="li" onclick="lia()"><a href="#">About</a></li>
+                        <li class="li" onclick="lia()"><a href="#Speaders">Speaders</a></li>
+                        <li class="li" onclick="lia()"><a href="#schedules">Schedules </a></li>
+                        <li class="li" onclick="lia()"><a href="#Pricing"> Pricing</a></li>
+                        <li class="li" onclick="lia()"><a href="#venue">Venue </a></li>
+                        <li class="li" onclick="lia()"><a href="#contect">Contact </a></li>
+                        <div class="header_btn li" onclick="lia()"><a href="#">Buy Tickets</a></div>
                     </ul>
                 </nav>
-                <div class="header_btn"><a href="#">Buy Tickets</a></div>
+
+
             </div>
+            <!-- <div class="header__mbnav">
+                <nav id="navimb">
+                    <ul>
+                        <li class="li" onclick="lia()"><a href="#home">Home</a></li>
+                        <li class="li" onclick="lia()"><a href="#">About</a></li>
+                        <li class="li" onclick="lia()"><a href="#Speaders">Speaders</a></li>
+                        <li class="li" onclick="lia()"><a href="#schedules">Schedules </a></li>
+                        <li class="li" onclick="lia()"><a href="#Pricing"> Pricing</a></li>
+                        <li class="li" onclick="lia()"><a href="#venue">Venue </a></li>
+                        <li class="li" onclick="lia()"><a href="#contect">Contact </a></li>
+                        <div class="header_btn li" onclick="lia()"><a href="#">Buy Tickets</a></div>
+                    </ul>
+                </nav>
+            </div> -->
+
+
 
 
         </header>
@@ -65,7 +86,7 @@
 
             </div>
         </section>
-
+        <!-- OUR Highlights SECTION  -->
         <section class="highlight flex_row" id="highlight">
             <div class="highlight_vedeo_container animate">
                 <div class="highlight_vedeo_box flex_row">
@@ -537,8 +558,9 @@
                         <h2>Times Square</h2>
                     </div>
                     <div class="venue_card_text">
-                        <h5><i class="fas fa-map-marker-alt"></i> 102 South. 7th Street, New York, NY 10036, USA</h5>
-                        <a><i class="fas fa-comment-alt"></i> hi@company.com</a>
+                        <h5><i class="fas fa-map-marker-alt"></i> pakistan, punjab, mianwali, kundian, mohalla jakhora
+                            walla</h5>
+                        <a><i class="fas fa-comment-alt"></i> waqasimalok@gmail.com</a>
                         <br>
                         <br>
                         <a><i class="fas fa-phone-alt"></i> 010-020-0340</a>
@@ -592,7 +614,7 @@
                         All Rights Reserved.
                         <br>
                         <br>
-                        Design: TemplateMo
+                        Developer: WAQAS MALIK
                     </p>
                     <a href="#home"><i class="fas fa-angle-double-up"></i></a>
 
