@@ -337,6 +337,7 @@ li {
     height: 100vh;
     max-height: 1100px;
     max-width: 1600px;
+    position: relative;
 }
 
 .home::before {
